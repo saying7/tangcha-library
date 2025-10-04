@@ -6,10 +6,59 @@
 --font-head-color: var(--Gray-900-color);
 --font-body-color: var(--Gray-900-color);
 --font-body-2nd-color: var(--Gray-500-color);
+
 --primary-color: var(--Yellow-400-color);
 
 /* border radius */
 --toast-radius: var(--Border-radius-small);
 --accordion-radius: var(--Border-radius-small);
+
+/* button */
 --btn-radius-xlarge-box: 1rem;
+--btn-radius-large-box: 0.8rem;
+--btn-radius-medium-box: 0.6rem;
+--btn-radius-small-box: 0.4rem;
+--btn-radius-circle: 999rem;
+
+--btn-border-gray: var(--Gray-300-color);
+--btn-border-gray-hover: var(--Gray-400-color);
+--btn-border-primary: var(--primary-color);
+--btn-border-ghost: white;
+
+--btn-bg-color-white: white;
+--btn-bg-color-primary: var(--Blue-600-color);
+--btn-bg-color-emphais: var(--Gray-950-color);
+--btn-bg-color-disabled: var(--Gray-300-color);
+--btn-bg-color-ghost: var(--Gray-950-color) 5%;
+
+--btn-font-size-xlarge: 2.0rem;
+--btn-font-size-large: 1.8rem;
+--btn-font-size-medium: 1.6rem;
+--btn-font-size-small: 1.4rem;
+
+--btn-font-weight: 600;
+
+--btn-font-color-white: white;
+--btn-font-color-primary: var(--primary-color);
+--btn-font-color-black: var(--Gray-900-color);
+
+--btn-height-xlarge: 6.4rem;
+--btn-height-large: 5.6rem;
+--btn-height-medium: 4.8rem;
+--btn-height-small: 4.0rem;
+
+--btn-width-xlarge: 6.4rem;
+--btn-width-large: 5.6rem;
+--btn-width-medium: 4.8rem;
+--btn-width-small: 4.0rem;
+
+--btn-padding-xlarge: 0 3.2rem;
+--btn-padding-large: 0 2.4rem;
+--btn-padding-medium: 0 2.0rem;
+--btn-padding-small: 0 1.6rem;
+
+--btn-icon-size-xlarge: 2.4rem;
+--btn-icon-size-large: 2.0rem;
+--btn-icon-size-medium: 1.8rem;
+--btn-icon-size-small: 1.6rem;
 }
