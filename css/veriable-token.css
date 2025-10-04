@@ -1,0 +1,15 @@
+@import 'css/veriable.css';
+
+:root {
+/* 토큰컬러 */
+--line-base-color: var(--Gray-200-color);
+--font-head-color: var(--Gray-900-color);
+--font-body-color: var(--Gray-900-color);
+--font-body-2nd-color: var(--Gray-500-color);
+--primary-color: var(--Yellow-400-color);
+
+/* border radius */
+--toast-radius: var(--Border-radius-small);
+--accordion-radius: var(--Border-radius-small);
+--btn-radius-xlarge-box: 1rem;
+}

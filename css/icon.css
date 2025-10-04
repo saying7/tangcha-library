@@ -1,0 +1,89 @@
+.ic-plus {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/plus.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-minus {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/minus.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-close {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/close.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-close-w {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/close-w.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-warning {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/warning.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-error {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/error.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-info-w {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/info-w.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-info {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/info.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
+
+.ic-success {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  /* SVG 파일 경로 지정 */
+  background-image: url('../images/icon/success.svg'); 
+  background-repeat: no-repeat;
+  background-size: contain; /* 크기에 맞게 조정 */
+}
