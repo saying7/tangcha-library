@@ -11,10 +11,21 @@ body {
 .module {
   display: block;
   & h4 {
-    padding-bottom: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+  & h5 {
+    padding-bottom: 1.6rem;
   }
   & div {
     margin-bottom: 0.8rem;
+  }
+  .col-16 {
+    padding-bottom: 1.6rem;
+    .row-8 {
+      display: flex;
+      gap: 0.8rem;
+      
+    }
   }
 }
 
