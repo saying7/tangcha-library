@@ -7,7 +7,11 @@
 --font-body-color: var(--Gray-900-color);
 --font-body-2nd-color: var(--Gray-500-color);
 --font-placeholder-color: var(--Gray-400-color);
---primary-color: var(--Blue-400-color);
+--primary-color: var(--Blue-600-color);
+--primary-color-hover: var(--Blue-700-color);
+--emphasis-color: var(--Gray-900-color);
+--emphasis-color-hover: var(--Gray-800-color);
+--btn-color-disabled: var(--Gray-400-color);
 
 /* height */
 --form-height-xlarge: 6.4rem;
@@ -27,8 +31,6 @@
 /* form */
 --form-border-color: var(--Gray-200-color);
 --form-bg-color-disabled: var(--Gray-100-color);
-
-
 
 /* button */
 --btn-border-gray: var(--Gray-300-color);
