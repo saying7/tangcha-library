@@ -48,31 +48,17 @@ body {
   color: var(--font-body-color); /* 기본 텍스트 색상 */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: 500;
-  /* rem 대신 px로 설정 시: font-size: 24px; */
-  box-sizing: border-box; 
-}
+h1, h2, h3, h4, h5, h6 {margin: 0; font-weight: 500; box-sizing: border-box;}
 
-/* 필요에 따라 각 h 태그별 크기 재설정 */
 h1 { font-size: 3.2rem; }
 h2 { font-size: 2.8rem; }
 h3 { font-size: 2.4rem; }
 h4 { font-size: 2.0rem; }
 h5 { font-size: 1.8rem; }
 h6 { font-size: 1.6rem; }
-/* ... 생략 ... */
 
-a {
-  text-decoration: underline; /* 기본 밑줄 제거 */
-  color: inherit; /* 부모 요소의 텍스트 색상을 상속받게 설정 */
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: underline; /* 호버 시에만 밑줄 표시 */
-}
+a {text-decoration: underline; /* 기본 밑줄 제거 */ color: inherit; /* 부모 요소의 텍스트 색상을 상속받게 설정 */}
+a:hover {text-decoration: underline;}
 
 img {
   max-width: 100%; /* 부모 요소보다 커지지 않도록 최대 너비 100% 설정 */
@@ -80,6 +66,9 @@ img {
   vertical-align: top; /* 인라인 요소의 기본 정렬 문제(밑에 약간의 공백) 방지 */
 }
 
-button, summary, .clickable-item, .check {
-  cursor: pointer;
-}
+a, button, summary, .clickable-item, .check {cursor: pointer;}
+
+/* 기본 스타일 제거 */
+button {all: unset;}
+input {appearance: none; -webkit-appearance: none; /* Safari 등 웹킷 기반 브라우저 지원 */ -moz-appearance: none; /* Firefox 지원 */}
+ul, li {list-style: none;}
